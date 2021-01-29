@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="./jquery.min.js"></script>
+<meta charset="UTF-8">
+</head>
+	<body style="text-align:center;" id="body">
+    <button id="show" onClick="GFG_Fun()">开始验证</button>
+	<script>
+ $('button').click(function () {
+$(this).attr('disabled', 1);
+});
+</script>
+	<div id="continue" style="display: none;">
+			是否使用 
+			<p id="DOWN" style="color: green; font-size: 24px; font-weight: bold;">--</p> 这个id验证星河一城通？<a href="./index.html?status=start&id=background"><button>继续</button></a>
+	<br><a href="#">不是我的星河一城通id？/无id验证</a>
+		<script id="random">
+			var down = document.getElementById('DOWN');
+			function GFG_Fun() {
+				down.innerHTML =
+					Math.random().toString(36).slice(2);
+                    document.getElementById("continue").style.display=""	
+			}
+		</script>
+<!-- <span style="font-size:24px;"><meta http-equiv="refresh" content="5;URL=./index.html?id=1D15G6H9Y8Q7"></span> -->
+    </div>
+	</body>
+</html>
