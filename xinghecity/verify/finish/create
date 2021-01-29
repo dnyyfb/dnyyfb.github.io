@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+<link rel="icon" sizes="32x32" href="./favicon-32x32.png">
+<link rel="icon" sizes="16x16" href="./favicon-16x16.png">
+<link rel="manifest" href="./site.webmanifest">
+<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#e2609a">
+<meta name="msapplication-TileColor" content="#603cba">
+<meta name="theme-color" content="hsl(255, 10%, 40%)"> 
+
+<meta charset="utf-8">
+<meta name="description" content="osu! - 节奏跃然指上！内含来自「押忍！战斗应援团」、「精英节拍特工」、太鼓的以及 osu! 原创的游戏模式，以及为其设计的全功能谱面编辑器。">
+<meta name="keywords" content="osu, peppy, ouendan, elite, beat, agents, ds, windows, game, taiko, tatsujin, simulator, sim, xna, ddr, beatmania, osu!, osume">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta name="csrf-param" content="_token">
+<meta name="csrf-token" content="YUHJ1kRgcXUly0lapxStXeCBkf7gPCWQmMuBHEVr">
+
+<meta name="turbolinks-cache-control" content="no-preview">
+
+    <meta name="ga-tracking-id" content="UA-4774947-8">
+
+    <style>
+        :root {
+            --font-default-override: var(--font-default-zh);
+        }
+    </style>
+
+<link rel="stylesheet" media="all" href="./default-skin.css">
+<link rel="stylesheet" media="all" href="./app.css" data-turbolinks-track="reload">
+
+<script>
+    var currentLocale = "zh";
+    var fallbackLocale = "en";
+</script>
+
+<script src="./vendor.js" data-turbolinks-track="reload"></script>
+<script src="./app-deps.js" data-turbolinks-track="reload"></script>
+<script src="./zh.js" data-turbolinks-track="reload"></script>
+    <script src="./en.js" data-turbolinks-track="reload"></script>
+
+<script src="./commons.js" data-turbolinks-track="reload"></script>
+<script src="./app.js" data-turbolinks-track="reload"></script>
+
+    <script src="./zh-cn.js" data-turbolinks-track="reload"></script>
+
+
+        <title>osu! 客户端验证完成 · unknown | osu!</title>
+    </head>
+
+    <body
+        class="
+            osu-layout
+            osu-layout--body
+            t-section
+            action-create
+            
+        "
+    >
+        <style>
+            :root {
+                --base-hue: 255;
+                --base-hue-deg: 255deg;
+            }
+        </style>
+        <div id="overlay" class="blackout blackout--overlay" style="display: none;"></div>
+        <div class="blackout js-blackout" data-visibility="hidden"></div>
+
+        
+                <div class="osu-layout__section osu-layout__section--full js-content home_create">
+                                            <div class="dialog-form">
+        <div class="dialog-form__dialog">
+            <div class="dialog-form__row dialog-form__row--header"></div>
+
+            <div class="dialog-form__row dialog-form__row--title">
+                <div class="dialog-form__logo"></div>
+                <h1 class="dialog-form__title">osu! 客户端验证</h1>
+            </div>
+
+            <div class="dialog-form__row dialog-form__row--client-verification-completed">
+                <div class="account-verification-message">
+                    <div class="account-verification-message__icon">
+                        <span class="far fa-check-circle"></span>
+                    </div>
+
+                    <div class="account-verification-message__title">
+                        osu! 客户端验证完成
+                    </div>
+                </div>
+            </div>
+
+            <div class="dialog-form__row dialog-form__row--client-verification-completed-buttons">
+                <a href="https://osu.ppy.sh/home" class="dialog-form__button">
+                    前往看板
+                </a>
+
+                <button
+                    class="dialog-form__extra-link dialog-form__extra-link--small"
+                    data-confirm="确定要退出吗？o(TヘTo)"
+                    data-method="DELETE"
+                    data-remote="1"
+                    data-url="https://osu.ppy.sh/session?redirect_home=1"
+                >
+                    退出登录
+                </button>
+            </div>
+        </div>
+    </div>
+                    </div>
+        
+        <div
+            class="fixed-bar
+                js-fixed-element
+                js-fixed-bottom-bar
+                js-sticky-footer--fixed-bar"
+        >
+            <div
+                class="js-permanent-fixed-footer
+                    js-sync-height--reference"
+                data-sync-height-target="permanent-fixed-footer"
+            >
+                            </div>
+        </div>
+
+        <div id="main-player" class="audio-player-floating" data-turbolinks-permanent>
+            <div class="js-audio--main"></div>
+            <div class="js-sync-height--target" data-sync-height-id="permanent-fixed-footer"></div>
+        </div>
+        <script data-turbolinks-eval="always">
+    var csrf = "YUHJ1kRgcXUly0lapxStXeCBkf7gPCWQmMuBHEVr";
+    var canonicalUrl = "";
+    var reloadUrl = "";
+</script>
+
+<script class="js-current-user">
+    var currentUser = {"avatar_url":"./16533591.png","country_code":"US","default_group":"default","id":16533591,"is_active":true,"is_bot":false,"is_online":true,"is_supporter":false,"last_visit":"2020-04-28T12:23:00+00:00","pm_friends_only":false,"profile_colour":null,"username":"dnyyfb","cover_url":"https:\/\/osu.ppy.sh\/images\/headers\/profile-covers\/c8.jpg","discord":null,"has_supported":false,"interests":null,"join_date":"2020-03-28T13:40:37+00:00","kudosu":{"total":0,"available":0},"lastfm":null,"location":null,"max_blocks":25,"max_friends":250,"occupation":null,"playmode":"osu","playstyle":["mouse","keyboard"],"post_count":0,"profile_order":["me","recent_activity","top_ranks","medals","historical","beatmaps","kudosu"],"skype":null,"title":null,"twitter":null,"website":null,"country":{"code":"US","name":"United States"},"cover":{"custom_url":null,"url":"https:\/\/osu.ppy.sh\/images\/headers\/profile-covers\/c8.jpg","id":"8"},"is_admin":false,"is_bng":false,"is_full_bn":false,"is_gmt":false,"is_limited_bn":false,"is_moderator":false,"is_nat":false,"is_restricted":false,"blocks":[],"friends":[{"target_id":16531280,"relation_type":"friend","mutual":1}],"unread_pm_count":0,"user_preferences":{"beatmapset_download":"all","ranking_expanded":true,"user_list_filter":"all","user_list_sort":"last_visit","user_list_view":"card"}};
+    // self-destruct to avoid rerun by turbolinks
+    $('.js-current-user').remove();
+</script>
+
+<div id="js-usercard__loading-template" class="hidden">
+    
+    <div class="js-react--user-card"></div>
+</div>
+        <div class="loading-overlay js-loading-overlay">
+    <div class="loading-overlay__container">
+                    <div class="loading-overlay__follow-point
+                    loading-overlay__follow-point--1">
+                ›
+            </div>
+
+                            <div class="loading-overlay__circle
+                        loading-overlay__circle--1
+                        loading-overlay__circle--approach"
+                ></div>
+                            <div class="loading-overlay__circle
+                        loading-overlay__circle--1
+                        loading-overlay__circle--hit"
+                ></div>
+                                <div class="loading-overlay__follow-point
+                    loading-overlay__follow-point--2">
+                ›
+            </div>
+
+                            <div class="loading-overlay__circle
+                        loading-overlay__circle--2
+                        loading-overlay__circle--approach"
+                ></div>
+                            <div class="loading-overlay__circle
+                        loading-overlay__circle--2
+                        loading-overlay__circle--hit"
+                ></div>
+                                <div class="loading-overlay__follow-point
+                    loading-overlay__follow-point--3">
+                ›
+            </div>
+
+                            <div class="loading-overlay__circle
+                        loading-overlay__circle--3
+                        loading-overlay__circle--approach"
+                ></div>
+                            <div class="loading-overlay__circle
+                        loading-overlay__circle--3
+                        loading-overlay__circle--hit"
+                ></div>
+                                <div class="loading-overlay__follow-point
+                    loading-overlay__follow-point--4">
+                ›
+            </div>
+
+                            <div class="loading-overlay__circle
+                        loading-overlay__circle--4
+                        loading-overlay__circle--approach"
+                ></div>
+                            <div class="loading-overlay__circle
+                        loading-overlay__circle--4
+                        loading-overlay__circle--hit"
+                ></div>
+                        </div>
+</div>
+        <div id="popup-container">
+    <div class="alert alert-dismissable popup-clone col-md-6 col-md-offset-3 text-center" style="display: none">
+        <button type="button" data-dismiss="alert" class="close"><i class="fas fa-times"></i></button>
+        <span class="popup-text"></span>
+    </div>
+    <div class="empty-popup empty-popup--clone" style="display: none">
+        <div class="popup-content"></div>
+    </div>
+</div>
+
+        <script id="json-route-section" type="application/json">
+            {"action":"create","controller":"client_verifications_controller","namespace":"main","section":"home"}
+        </script>
+
+            </body>
+</html>
