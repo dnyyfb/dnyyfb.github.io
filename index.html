@@ -13,6 +13,9 @@
 <script type="text/javascript" src="./js/dnyyfbwbst.js">
 </script>
 <script src="./js/jquery.min.js"></script>
+<link href="./fonts/material_2_icon_font.woff2" as="font" type="font/woff2" crossorigin="">
+<link href="./fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin="">
+<link href="./fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin="">
 <style>
 #login{
 background:url(./image/loging.png) no-repeat; padding-left:20px
@@ -21,7 +24,11 @@ background:url(./image/loging.png) no-repeat; padding-left:20px
 background:url(./image/login.jpg) no-repeat; padding-left:20px
 }   
 </style>
+<link rel="stylesheet" id="mdx_mdui_css-css" href="./css/mdui.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="mdx_style_css-css" href="./css/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="mdx_md2-css" href="./css/md2.css" type="text/css" media="all">
 </head>
+<body class="mdui-theme-primary-indigo mdui-theme-accent-pink mdx-md2-font mdx-reduce-motion mdui-loaded">
 <div class="topbar">
 <ul>
 <a href="/" style="color:grey">主页  </a>
@@ -80,6 +87,15 @@ document.getElementById("resultdiv").style.display = "none";
 <style type="text/css">
 @import url("./css/mw.css")
 </style>
+<div class="cookies">
+<i class="mdui-icon material-icons"></i>
+<div id="mdx-cookie-notice" class="mdui-shadow-8 mdx-cookie-notice-show"><i class="mdui-icon material-icons"></i><p>本网站使用了 Cookies 技术以优化您的浏览体验，我们非常重视您的隐私保护和个人信息保护，您可在<a href="https://dnyyfb.github.io/article/2/index.html" style="color:red;">隐私政策</a>中查看详情。</p><button id="mdx-cookie-button" class="mdui-btn mdui-color-theme mdui-ripple" onclick="hide()">同意</button></div>
+<script type="text/javascript">
+function hide(){ 
+document.getElementById('mdx-cookie-notice').style.display='none';
+        }
+    </script>
+</div>
 <h1>文章</h1>
 <br>
 <div class="article1">
