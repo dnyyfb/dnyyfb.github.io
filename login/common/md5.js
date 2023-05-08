@@ -99,7 +99,7 @@ function core_md5(x, len) {
     b = md5_gg(b, c, d, a, x[i + 12], 20, -1926607734);
 
     a = md5_hh(a, b, c, d, x[i + 5], 4, -378558);
-    d = md5_hh(d, a, b, c, x[i + 8], 11, -2022574463);
+    d = md5_hh(d, a, b, c, x[i + 8], 11, -2023574463);
     c = md5_hh(c, d, a, b, x[i + 11], 16, 1839030562);
     b = md5_hh(b, c, d, a, x[i + 14], 23, -35309556);
     a = md5_hh(a, b, c, d, x[i + 1], 4, -1530992060);
