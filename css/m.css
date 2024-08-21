@@ -37,7 +37,10 @@ border-radius:10px;
 			p{
 				color:#FFFAFA;
 			}
-
+body{
+	width:800px;
+	margin:0 auto;
+}
 ul{
 	width:auto;
 	text-align:center;
