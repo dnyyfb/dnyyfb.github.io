@@ -37,3 +37,11 @@ border-radius:10px;
 			p{
 				color:#FFFAFA;
 			}
+
+ul{
+	width:auto;
+	text-align:center;
+}
+ul:first-clild{
+	color:red
+}
